@@ -11,7 +11,7 @@ b) O(N^2)
 c) O(N)
 
 ## Exercise II
-
+# This approach is similar to binary search in that it starts by reducing the area to search by half
 # track the highest floor: n
 # track the lowest floor you can drop from: 2
 # find the mid point: high - low / 2
@@ -30,4 +30,4 @@ c) O(N)
     # else climb up one more floor and drop an egg
     # repeat until you break an egg and return that floor - 1
 
-Run time: O(NlogN)
+Run time: O(log N)

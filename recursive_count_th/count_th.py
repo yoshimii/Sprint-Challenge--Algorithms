@@ -23,3 +23,4 @@ def count_th(word):
     # check if next two letters are th 
     # if so return 1
     # else return 0
+    # if word is less than 0 or empty string return 0
